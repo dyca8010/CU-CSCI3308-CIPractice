@@ -1,5 +1,4 @@
 language: c
 compiler: gcc
-before_install: 
-	sudo apt-get install check 
+before_install: sudo apt-get install check 
 script: make test
